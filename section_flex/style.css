@@ -1,13 +1,82 @@
-.flex {
+.flex-simple {
   background-color: #00c7ce;
-  height: 50vh;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+}
+
+.flex-simple > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.flex-center {
+  background-color: #00c7ce;
+  height: 200px;
   padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.flex > div {
+.flex-center > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.flex-direction-row {
+  background-color: #00c7ce;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-direction-row > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.flex-direction-row-reverse {
+  background-color: #00c7ce;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-direction-row-reverse > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.flex-direction-column {
+  background-color: #00c7ce;
+  height: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-direction-column > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.flex-direction-column-reverse {
+  background-color: #00c7ce;
+  height: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.flex-direction-column-reverse > div {
   background-color: #fff;
   margin: 5px;
   font-size: 30px;
