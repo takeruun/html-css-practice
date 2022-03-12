@@ -1,0 +1,94 @@
+.flex-align-content {
+  background-color: #00c7ce;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  align-content: stretch;
+}
+.flex-align-content > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+
+.flex-align-content-flex-start {
+  background-color: #00c7ce;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.flex-align-content-flex-start > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+
+.flex-align-content-flex-end {
+  background-color: #00c7ce;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+.flex-align-content-flex-end > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+
+.flex-align-content-center {
+  background-color: #00c7ce;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.flex-align-content-center > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+
+.flex-align-content-space-between {
+  background-color: #00c7ce;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.flex-align-content-space-between > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+
+
+.flex-align-content-space-around {
+  background-color: #00c7ce;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.flex-align-content-space-around > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
