@@ -81,3 +81,48 @@
   margin: 5px;
   font-size: 30px;
 }
+
+.flex-wrap-no-wrap {
+  background-color: #00c7ce;
+  height: 300px;
+  width: 80px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-wrap-no-wrap > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.flex-wrap-wrap {
+  background-color: #00c7ce;
+  height: 300px;
+  width: 80px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-wrap-wrap > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.flex-wrap-wrap-reverse {
+  background-color: #00c7ce;
+  height: 300px;
+  width: 80px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.flex-wrap-wrap-reverse > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
